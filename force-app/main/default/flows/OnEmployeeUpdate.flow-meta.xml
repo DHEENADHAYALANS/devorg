@@ -1,12 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Flow xmlns="http://soap.sforce.com/2006/04/metadata">
     <actionCalls>
+        <name>Fa</name>
+        <label>Fa</label>
+        <locationX>591</locationX>
+        <locationY>393</locationY>
+        <actionName>Case.LogACall</actionName>
+        <actionType>quickAction</actionType>
+        <inputParameters>
+            <name>contextId</name>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </inputParameters>
+    </actionCalls>
+    <actionCalls>
         <name>TEST</name>
         <label>TEST</label>
         <locationX>757</locationX>
         <locationY>117</locationY>
         <actionName>LogACall</actionName>
         <actionType>quickAction</actionType>
+        <connector>
+            <targetReference>Fa</targetReference>
+        </connector>
     </actionCalls>
     <interviewLabel>OnEmployeeUpdate {!$Flow.CurrentDateTime}</interviewLabel>
     <label>OnEmployeeUpdate</label>
