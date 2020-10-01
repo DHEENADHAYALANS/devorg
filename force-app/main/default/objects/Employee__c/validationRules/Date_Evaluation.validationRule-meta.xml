@@ -2,6 +2,6 @@
 <ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Date_Evaluation</fullName>
     <active>true</active>
-    <errorConditionFormula>Start_date__c  &gt;  End_date__c</errorConditionFormula>
-    <errorMessage>Start date must be greater the end date (Devorg)</errorMessage>
+    <errorConditionFormula>Start_date__c    &gt;   End_date__c</errorConditionFormula>
+    <errorMessage>Start date must be greater the end date (Agri)</errorMessage>
 </ValidationRule>
